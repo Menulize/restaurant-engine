@@ -8,6 +8,9 @@ from flask import Flask, request
 from flask_cors import CORS, cross_origin
 from elasticsearch import Elasticsearch 
 import boto3
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app, resources={r"*": {"origins": "*"}})

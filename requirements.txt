@@ -23,11 +23,9 @@ packaging==20.9
 pdf2image==1.16.0
 Pillow==9.0.0
 pycparser==2.20
-pymongo==4.0.1
 pyparsing==2.4.7
 python-dateutil==2.8.2
 python-dotenv==0.19.2
-python-poppler==0.2.2
 PyYAML==5.4.1
 requests==2.25.1
 resolvelib==0.5.4
